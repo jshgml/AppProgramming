@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./component/ProfileCard.css";
+import "./ProfileCard.css";
 
 function ProfileCard(props) {
  // 좋아요 상태 관리
