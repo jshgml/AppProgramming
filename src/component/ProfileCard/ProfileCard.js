@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./ProfileCard.css";
+import "./component/ProfileCard.css";
 
 function ProfileCard(props) {
  // 좋아요 상태 관리
@@ -26,6 +26,7 @@ function ProfileCard(props) {
      <div className="box2">
        <h3>안녕하세요! React 컴포넌트를 배우고 있는 {props.name}입니다.</h3>
      </div>
+     <hr/>
      <div className="box3">
         <button onClick={handleLike}>좋아요</button>
         <p>좋아요 {likeCount}개</p>
